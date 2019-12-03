@@ -63,18 +63,24 @@ input{
 
     text-decoration:none;
     text-shadow:0 1px 0 #2f6627;
-    width: 150px
+    width: 200px
 }
 
-#veryEasy{
+#veryveryEasy{
     background-color:#44c767;
     border:1px solid #18ab29;
     color:#ffffff;
 }
 
+#veryEasy{
+    background-color:#7BD253;
+    border:1px solid #65b84f;
+    color:#ffffff;
+}
+
 #easy{
-    background-color: #96D74A;
-    border:1px solid #84be43;
+    background-color: #B4DE3F;
+    border:1px solid #99c33a;
     color:#ffffff;
 }
 
@@ -86,20 +92,20 @@ input{
 }
 
 #hard{
-    background-color: #D2A748;
-    border:1px solid #b88f3f;
+    background-color: #D8B941;
+    border:1px solid #af9137;
     color:#ffffff;
 }
 
 #impossible{
-    background-color: #212121;
-    border:1px solid #303030;
+    background-color: #c15547;
+    border:1px solid #aa4c3f;
     color:#ffffff;
 }
 
 #goodLuck{
-    background-color: #BC6565;
-    border:1px solid #a85858;
+    background-color: #C98D54;
+    border:1px solid #af784e;
     color:#ffffff;
 }
 .btn:hover {
