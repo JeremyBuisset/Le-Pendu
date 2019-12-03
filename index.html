@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Le Pendu</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <header>
+        <h1>Le Pendu</h1>
+        <h3>Trouverez-vous le mot caché?</h3>
+    </header>
+    <div id="main">
+        <div id="explain"><h4>Le but du jeu est de trouver un mot généré aléatoirement dans une liste, attention, vous n'avez qu'un
+        nombre d'essais limités</h4></div>
+        <h5>Choisissez votre difficulté, celle-ci influencera votre nombre d'essais</h5>
+        <div id="letterChamp">
+            <div id="letterBlock">
+            </div>
+            <div>Entrez une lettre ici</div>
+            <input id="letter" maxlength="1">
+            <div id="utilize">Lettres déjà utilisées : <p id="lettersUtilized"></p></div>
+        </div>
+        <div id="btn">
+            <div id="difficulty">
+                <button class="btn" id="veryEasy">Très Facile</button>
+                <button class="btn" id="easy">Facile</button>
+                <button class="btn" id="normal">Normale</button>
+                <button class="btn" id="hard">Difficile</button>
+                <button class="btn" id="goodLuck">Bonne chance</button>
+                <button class="btn" id="impossible">Impossible</button>
+            </div>
+                <button class="btn" id="check">Vérifier</button>
+        </div>
+    </div>
+    <div id="resultats">
+        <div id="screen">
+            <p id="results">Bonjour, je suis l'affichage des résultats</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
